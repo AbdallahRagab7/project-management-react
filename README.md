@@ -11,5 +11,4 @@ simple project management with React. Easily add and remove projects . Efficient
 - npm run dev
 
 
-- Vercel Hosting:
-https://project-management-react.vercel.app/
+
