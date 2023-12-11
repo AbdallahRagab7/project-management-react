@@ -5,6 +5,7 @@ import NoProjectSelected from './components/NoProjectSelected.jsx';
 import ProjectsSidebar from './components/ProjectsSidebar.jsx';
 import SelectedProject from './components/SelectedProject.jsx';
 
+//NewTask >> Tasks >> SelectedProject >> 
 function App() {
   const [projectsState, setProjectsState] = useState({
     selectedProjectId: undefined,
@@ -103,6 +104,8 @@ function App() {
       onAddTask={handleAddTask}
       onDeleteTask={handleDeleteTask}
       tasks={projectsState.tasks}
+      selectedProjectId={projectsState.selectedProjectId}
+
     />
   );
 
